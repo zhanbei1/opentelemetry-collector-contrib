@@ -4,6 +4,8 @@
 
 ## 💡 Enhancements 💡
 
+- `datadogexporter`: Add insecure_skip_tls flag to configuration (#7422)
+
 ## 🛑 Breaking changes 🛑
 
 ## 🚩 Deprecations 🚩
