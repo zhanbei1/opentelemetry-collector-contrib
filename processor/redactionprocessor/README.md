@@ -64,7 +64,10 @@ processors:
     # the processor adds to the spans when it redacts or masks other
     # attributes. In some contexts a list of redacted attributes leaks
     # information, while it is valuable when integrating and testing a new
-    # configuration. Possible values are `debug`, `info`, and `silent`.
+    # configuration. Possible values:
+    # - `debug` includes both redacted key counts and names in the summary
+    # - `info` includes just the redacted key counts in the summary
+    # - `silent` omits the summary attributes
     summary: debug
 ```
 
